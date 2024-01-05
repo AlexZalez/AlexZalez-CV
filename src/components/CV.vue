@@ -6,7 +6,7 @@
 <template>
     <div class="h-screen flex relative">
         <aside class="lg:w-[35%] w-80 max-h-full overflow-hidden shadow-black shadow-lg ">
-            <div class="flex justify-center flex-col mb-28 pt-12 h-1/3 bg-blue-800 text-white">
+            <div class="flex justify-center flex-col lg:mb-28 mb-16 pt-12 h-1/3 bg-blue-800 text-white">
                 <div class="lg:text-4xl lg:p-0 lg:font-normal font-semibold text-lg text-center">
                     <div>Alexis Jose</div> 
                     <div>Gonzalez Martinez</div>
