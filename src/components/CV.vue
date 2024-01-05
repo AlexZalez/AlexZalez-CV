@@ -60,10 +60,10 @@
                             Informático con 1 año de experiencia en desarrollo web y 3 años de conocimiento en soporte técnico y redes. 
                         </div>
                         <div class="">
-                            Apasionado por el desarrollo de frontend y automatización de procesos.
+                            Apasionado por el desarrollo web y la automatización de procesos.
                         </div>
                         <div class="">
-                            Busco un puesto de trabajo para desenvolver mis conocimientos.
+                            Busco un puesto de Desarrollador Web Junior para desenvolver mis conocimientos.
                         </div>
                     </div>
                 </div>
