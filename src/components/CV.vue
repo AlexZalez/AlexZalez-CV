@@ -4,9 +4,9 @@
 </script>
 
 <template>
-    <div class="h-screen flex relative">
-        <aside class="lg:w-[35%] w-80 max-h-full overflow-hidden shadow-black shadow-lg ">
-            <div class="flex justify-center flex-col lg:mb-28 mb-16 pt-12 h-1/3 bg-blue-800 text-white">
+    <div class="h-screen max-h-screen flex relative overflow-hidden">
+        <aside class="lg:w-[35%] w-80 shadow-black shadow-lg ">
+            <div class="flex justify-center flex-col lg:mb-28 mb-16 pt-12 h-[18em] bg-blue-800 text-white myBorder">
                 <div class="lg:text-4xl lg:p-0 lg:font-normal font-semibold text-lg text-center">
                     <div>Alexis Jose</div> 
                     <div>Gonzalez Martinez</div>
@@ -18,13 +18,14 @@
                     </div>
                 </div>
             </div>
-            <div class="h-full lg:px-6 pl-3 pr-1 space-y-4">
+
+            <div class=" lg:px-6  sm:h-full h-[22em] overflow-auto pl-3 pr-1 space-y-4">
 
                 <!-- DATOS PERSONALES -->
                 <div>
                     <div class="titulo">Datos Personales</div>
                     <div class="flex flex-col lg:pl-3 md:text-base text-sm">
-                        <div class="">+58 424 368 16 83</div>
+                        <a href="wa.link/q2ud1t" class="">+58 424 368 16 83</a>
                         <div class="">alexjg.181@gmail.com</div>
                     </div>
                 </div>
@@ -55,7 +56,7 @@
                     <div class="flex flex-col">
                         <a href="https://alexzalez.github.io/DolarWeb/" class=" inline-flex items-center">
                             <div class="text-lg tracking-wide text-blue-600 font-semibold">DolarWeb</div>
-                            <div class="w-4 aspect-square ml-0.5 stroke-blue-400 ">
+                            <div class="w-4 aspect-square ml-0.5 stroke-blue-600 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 15 15" fill="none">
                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M3 2C2.44772 2 2 2.44772 2 3V12C2 12.5523 2.44772 13 3 13H12C12.5523 13 13 12.5523 13 12V8.5C13 8.22386 12.7761 8 12.5 8C12.2239 8 12 8.22386 12 8.5V12H3V3L6.5 3C6.77614 3 7 2.77614 7 2.5C7 2.22386 6.77614 2 6.5 2H3ZM12.8536 2.14645C12.9015 2.19439 12.9377 2.24964 12.9621 2.30861C12.9861 2.36669 12.9996 2.4303 13 2.497L13 2.5V2.50049V5.5C13 5.77614 12.7761 6 12.5 6C12.2239 6 12 5.77614 12 5.5V3.70711L6.85355 8.85355C6.65829 9.04882 6.34171 9.04882 6.14645 8.85355C5.95118 8.65829 5.95118 8.34171 6.14645 8.14645L11.2929 3H9.5C9.22386 3 9 2.77614 9 2.5C9 2.22386 9.22386 2 9.5 2H12.4999H12.5C12.5678 2 12.6324 2.01349 12.6914 2.03794C12.7504 2.06234 12.8056 2.09851 12.8536 2.14645Z" fill="#000000"/>
                                 </svg>
@@ -167,7 +168,7 @@
                 <!-- REFERENCIAS -->
                 <div class="px-4 ">
                     <div class="titulo">Referencias</div>
-                    <div class="flex flex-wrap space-y-2 max-h-full pl-3  pt-2">
+                    <div class="flex flex-wrap space-y-2 max-h-full pl-3 md:text-base text-sm  pt-2">
                         <div class=" w-full">
                             <div>Ing. Aylwin Córdova</div>
                             <div>+58 416 110 36 49</div>
@@ -206,5 +207,9 @@
 
 .fecha{
     @apply font-semibold text-blue-900
+}
+
+.myBorder{
+    border-radius: 0px 0px 150px 150px / 0px 0px 25px 25px;
 }
 </style>
